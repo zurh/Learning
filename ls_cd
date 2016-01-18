@@ -1,0 +1,15 @@
+import os
+
+def ls():
+    #list current directory
+    print os.getcwd()
+
+def cd(path):
+    #changes directory path
+    x = path
+    os.chdir(x)
+    print("ok")
+
+ls()
+cd('C:\\')
+ls()
